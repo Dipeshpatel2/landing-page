@@ -20,3 +20,11 @@ a:link,
 a:visited {
     text-decoration: none;
 }
+
+.navtop{
+    height: 10vh;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
