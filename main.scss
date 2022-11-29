@@ -95,3 +95,11 @@ header{
         margin: 0 auto;
     }
 }
+
+.navbottom {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-beige;
+}
