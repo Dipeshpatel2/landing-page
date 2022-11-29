@@ -1,0 +1,50 @@
+header{
+    text-align: center;
+
+    h1, h3{
+        color: $color-secondary;
+    }
+
+    h1{
+        font-size: 30px;
+        font-family: $font-display;
+    }
+
+    h2, h5{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    a {
+        margin: 0 auto;
+    }
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    .detail1{
+        display: flex;
+        align-items: center;
+    }
+
+    a{
+        margin: 0 auto;
+    }
+}
+
+
+
+@media screen and (min-width: 991px) {
+    body{
+        width: 500px;
+    }
+}
