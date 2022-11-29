@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 35px;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial;
+  color: #072d51;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.navtop {
+  height: 10vh;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+
+.button1 {
+  width: 100px;
+  border: 1px solid #072d51;
+  background-color: white;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 5px;
+}
+
+.button2 {
+  display: block;
+  width: 170px;
+  background-color: #072d51;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+header h1, header h3 {
+  color: #07d4f3;
+}
+header h1 {
+  font-size: 30px;
+  font-family: "Comic-sans", sans-serif;
+}
+header h2, header h5 {
+  font-size: 25px;
+}
+header h3 {
+  font-size: 20px;
+}
+header a {
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-container .detail1 {
+  display: flex;
+  align-items: center;
+}
+.flex-container a {
+  margin: 0 auto;
+}
+
+.navbottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+}
+
+@media screen and (min-width: 991px) {
+  body {
+    width: 500px;
+  }
+}
