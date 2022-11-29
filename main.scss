@@ -7,3 +7,16 @@ $color-primary: #072d51;
 $color-secondary: #07d4f3;
 $color-white:  white;
 $color-beige: rgb(245,245,220);
+
+*{
+    margin: 0;
+    padding: 35px;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
