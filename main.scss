@@ -103,3 +103,9 @@ header{
     align-items: center;
     background-color: $color-beige;
 }
+
+@media screen and (min-width: 991px) {
+    body{
+        width: 500px;
+    }
+}
